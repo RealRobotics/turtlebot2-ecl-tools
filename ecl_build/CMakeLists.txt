@@ -2,7 +2,7 @@
 # Cmake
 ##############################################################################
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.15)
 project(ecl_build)
 
 ##############################################################################
@@ -36,4 +36,3 @@ ament_package(CONFIG_EXTRAS ${${PROJECT_NAME}_MODULES})
 install(DIRECTORY cmake
         DESTINATION share
 )
-

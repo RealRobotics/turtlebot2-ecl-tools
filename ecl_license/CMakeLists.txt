@@ -2,7 +2,7 @@
 # Cmake
 ##############################################################################
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.15)
 project(ecl_license)
 
 ##############################################################################
@@ -17,7 +17,7 @@ find_package(ament_cmake)
 ##############################################################################
 
 
-install(DIRECTORY licenses 
+install(DIRECTORY licenses
         DESTINATION share
         PATTERN ".svn" EXCLUDE
         PATTERN "CMakeLists.txt" EXCLUDE
